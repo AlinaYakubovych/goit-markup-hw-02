@@ -1,10 +1,14 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+  color: #757575;
 }
 :root{
   --first-title-color: #FFFFFF;
   --second-title-color: #212121;
   --header-adress-color: #757575;
+  --header-focus-color: #2196F3;
+  --footer-item-color: #2196F3; 
 
 }
 /*----------------------- HEADER------------------ */
@@ -32,20 +36,34 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
 }
-.header-link-mail {
+.header-link:hover{
+  color: #2196F3;
+}
+.header-link:focus{
+  color: #2196F3;
+}
+
+.header-address-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-adress-color);
 }
-.header-link-tel {
+.header-address-link:hover{
+  color: #2196F3;
+}
+.header-address-link:focus{
+  color: #2196F3;
+}
+.header-address-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-adress-color)
 } 
+
 
 /* -------------------------HERO---------------- */
 
@@ -91,6 +109,8 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 .examle-title{
+font-family: Roboto;
+font-style: normal;
 font-weight: bold;
 font-size: 36px;
 line-height: 1.16;
@@ -121,6 +141,9 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 }
+.btn{
+  cursor: pointer;
+}
 
 /* -----------------------------FOTER----------------------- */
 .footer-part-title{
@@ -133,16 +156,13 @@ letter-spacing: 0.03em;
 color: #FFFFFF
 }
 .footer-title{
-  font-family: Raleway;
+font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2196F3;;
-}
-.footer{
-  background: #2F303A;
+color: #2196F3;
 }
 .footer-link{
 font-family: Roboto;
@@ -170,6 +190,21 @@ font-size: 14px;
 line-height: 1.71px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus{
+  color: var(--footer-item-color);
+}
+.footer-mail:hover,
+.footer-mail:focus{
+  color: var(--footer-item-color);
+}
+.footer-link-tel:hover,
+.footer-link-tel:focus{
+  color: var(--footer-item-color);
+}
+.footer{
+  background: #2F303A;
 }
 /* -------------------PORTFOLIO ---------*/
 .filter-btn{
@@ -199,4 +234,11 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
+}
+.filter-btn:focus,
+.filter-btn:hover{
+  color: #2196F3;
+}
+.filter-btn{
+  cursor: pointer;
 }
