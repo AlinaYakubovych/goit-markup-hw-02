@@ -9,7 +9,15 @@ body {
   --header-adress-color: #757575;
   --header-focus-color: #2196F3;
   --footer-item-color: #2196F3; 
-
+}
+.logo {
+  text-decoration: none;
+}
+.header-link {
+  text-decoration: none;
+}
+.header-address-link {
+  text-decoration: none;
 }
 /*----------------------- HEADER------------------ */
 
@@ -178,7 +186,7 @@ Font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 1.71
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
@@ -206,6 +214,22 @@ color: rgba(255, 255, 255, 0.6);
 .footer{
   background: #2F303A;
 }
+.footer-link {
+  text-decoration: none;
+}
+.footer-mail {
+  text-decoration: none;
+}
+.footer-link-tel {
+  text-decoration: none;
+}
+.footer-part-title {
+  text-decoration: none;
+}
+.list{
+  list-style: none;
+}
+
 /* -------------------PORTFOLIO ---------*/
 .filter-btn{
 font-family: Roboto;
